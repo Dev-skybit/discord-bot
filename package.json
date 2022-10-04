@@ -2,19 +2,26 @@
   "name": "bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "nodemon ./src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.3.3"
-  },
   "dependencies": {
+    "axios": "^0.27.2",
     "command-handler": "file:../command-handler",
+    "cors": "^2.8.5",
     "discord.js": "^13.8.1",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "https": "^1.0.0",
+    "mongoose": "^6.4.4",
+    "passport": "^0.6.0",
+    "passport-bungie-oauth2": "^1.0.0",
+    "passport-discord": "^0.1.4"
   }
 }
